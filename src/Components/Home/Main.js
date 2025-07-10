@@ -39,7 +39,7 @@ function Main() {
                 {/*<Clients />*/}
                 {/*<Pricing />*/}
                 <Interface />
-                <Text />
+                {/*<Text />*/}
                 {/*<Blog />*/}
                 <Footer />
             </div>

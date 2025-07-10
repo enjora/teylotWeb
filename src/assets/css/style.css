@@ -2512,7 +2512,7 @@ footer .download_side .app_btn li a img {
 .unique_section .unique_inner .unique_box {
     background-color: var(--light-yellow);
     border-radius: 20px;
-    padding: 25px 25px 170px 25px;
+    padding: 25px 25px 25px 25px;
     height: 100%;
     position: relative;
 }
@@ -4103,4 +4103,9 @@ footer .download_side .app_btn li a img {
   }
   .screen_frame_img img {
     width: 270px;
+  }
+
+  .logo_web {
+    width: 10px;
+    height: auto;
   }

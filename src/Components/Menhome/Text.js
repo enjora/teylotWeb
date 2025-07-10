@@ -47,7 +47,7 @@ function Text() {
                     </div>
                     <div className="center_screen">
                         <div className="img">
-                            <img src={Screen} alt="image" />
+                            {/*<img src={Screen} alt="image" />*/}
                         </div>
                         <ul className="app_btn">
                             <li>

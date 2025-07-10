@@ -19,7 +19,7 @@ function Main() {
             <div className="page_wrapper">
                 <Contactblock/>
                 <Contactform/>
-                <Map/>
+                {/*<Map/>*/}
                 <Footer />
             </div>
         </>

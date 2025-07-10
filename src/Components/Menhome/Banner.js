@@ -1,7 +1,7 @@
 import React from 'react'
-import Banner1 from '../../assets/images/hero_img1.png'
+import Banner1 from '../../assets/images/login.png'
 import QRcode from '../../assets/images/qrcode.png'
-import Banner2 from '../../assets/images/hero_img1.png'
+import Banner2 from '../../assets/images/rightImage.png'
 import Star1 from '../../assets/images/smallStar.png'
 import Text from '../../assets/images/12mtext.png'
 

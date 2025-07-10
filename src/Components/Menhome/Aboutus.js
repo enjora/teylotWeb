@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'
-import appscreen from '../../assets/images/appscreen.png'
+import appscreen from '../../assets/images/mainApp.png'
 import Application from '../../assets/images/applicationvideothumb.png'
 import Playbtn from '../../assets/images/play_white.svg'
 import Videobtn from '../../assets/images/playvideotext.png'

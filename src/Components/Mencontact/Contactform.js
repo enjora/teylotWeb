@@ -36,7 +36,6 @@ function Contactform() {
                                     <div className="form-group">
                                         <select className="form-control">
                                             <option value="">Country</option>
-                                            <option value="">India</option>
                                             <option value="">USA</option>
                                         </select>
                                     </div>

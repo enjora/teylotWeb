@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import service1 from '../../assets/images/service1.png'
-import service2 from '../../assets/images/service2.png'
-import service3 from '../../assets/images/service3.png'
+import service1 from '../../assets/images/S3.png'
+import service2 from '../../assets/images/S2.png'
+import service3 from '../../assets/images/S1.png'
 
 // const servicesData = [
 //     {

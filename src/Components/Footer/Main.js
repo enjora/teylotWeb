@@ -78,7 +78,7 @@ function Main() {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="#">
+                                        <Link to="https://apps.apple.com/app/teylot/id6748265600">
                                             <img className="blue_img" src={appstorebtn} alt="image" />
                                         </Link>
                                     </li>
@@ -100,12 +100,12 @@ function Main() {
                                 <li>
                                     <Link to="/about">About us</Link>
                                 </li>
-                                <li>
-                                    <Link to="/pricing">Pricing</Link>
-                                </li>
-                                <li>
-                                    <Link to="/blog-list">Blog</Link>
-                                </li>
+                                {/*<li>*/}
+                                {/*    <Link to="/pricing">Pricing</Link>*/}
+                                {/*</li>*/}
+                                {/*<li>*/}
+                                {/*    <Link to="/blog-list">Blog</Link>*/}
+                                {/*</li>*/}
                                 <li>
                                     <Link to="/contact">Contact us</Link>
                                 </li>

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../../assets/images/logo.png'
+import logo from '../../assets/images/web_logo.png'
 
 function Main() {
 
@@ -30,7 +30,7 @@ function Main() {
                 <div className="container">
                     <nav className="navbar navbar-expand-lg">
                         <Link className="navbar-brand" to="/">
-                            <img src={logo} alt="Logo" />
+                            <img src={logo} alt="Logo" className="logo_web"/>
                         </Link>
                         <button className={`navbar-toggler ${mobile && "collapsed"}`} onClick={() => setmobile(mobile === true ? false : true)} type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,52 +45,52 @@ function Main() {
                                         Home
                                     </Link>
                                 </li>
-                                <li className="nav-item">
-                                    <Link className="nav-link" to="/about">
-                                        About us
-                                    </Link>
-                                </li>
-                                <li className="nav-item has_dropdown">
-                                    <Link className="nav-link" to="#"  onClick={() => toggleDropdown(1)}>
-                                        Pages
-                                    </Link>
-                                    <span className="drp_btn ">
-                                        <i className="icofont-rounded-down" onClick={() => toggleDropdown(1)}/>
-                                    </span>
-                                    {openDropdown === 1 && (
-                                    <div className="sub_menu show">
-                                        <ul>
-                                            <li>
-                                                <Link to="/blog-list">Blog List</Link>
-                                            </li>
-                                            <li>
-                                                <Link to="/blog-detail">Single Blog</Link>
-                                            </li>
-                                            <li>
-                                                <Link to="/sign-in">Sign In</Link>
-                                            </li>
-                                            <li>
-                                                <Link to="/sign-up">Sign Up</Link>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    )}
-                                </li>
-                                <li className="nav-item">
-                                    <Link className="nav-link" to="/pricing">
-                                        Pricing
-                                    </Link>
-                                </li>
-                                <li className="nav-item">
-                                    <Link className="nav-link" to="/reviews">
-                                        Reviews
-                                    </Link>
-                                </li>
-                                <li className="nav-item">
-                                    <Link className="nav-link" to="/blog-list">
-                                        Blog
-                                    </Link>
-                                </li>
+                                {/*<li className="nav-item">*/}
+                                {/*    <Link className="nav-link" to="/about">*/}
+                                {/*        About us*/}
+                                {/*    </Link>*/}
+                                {/*</li>*/}
+                                {/*<li className="nav-item has_dropdown">*/}
+                                {/*    <Link className="nav-link" to="#"  onClick={() => toggleDropdown(1)}>*/}
+                                {/*        Pages*/}
+                                {/*    </Link>*/}
+                                {/*    <span className="drp_btn ">*/}
+                                {/*        <i className="icofont-rounded-down" onClick={() => toggleDropdown(1)}/>*/}
+                                {/*    </span>*/}
+                                {/*    {openDropdown === 1 && (*/}
+                                {/*    <div className="sub_menu show">*/}
+                                {/*        <ul>*/}
+                                {/*            <li>*/}
+                                {/*                <Link to="/blog-list">Blog List</Link>*/}
+                                {/*            </li>*/}
+                                {/*            <li>*/}
+                                {/*                <Link to="/blog-detail">Single Blog</Link>*/}
+                                {/*            </li>*/}
+                                {/*            <li>*/}
+                                {/*                <Link to="/sign-in">Sign In</Link>*/}
+                                {/*            </li>*/}
+                                {/*            <li>*/}
+                                {/*                <Link to="/sign-up">Sign Up</Link>*/}
+                                {/*            </li>*/}
+                                {/*        </ul>*/}
+                                {/*    </div>*/}
+                                {/*    )}*/}
+                                {/*</li>*/}
+                                {/*<li className="nav-item">*/}
+                                {/*    <Link className="nav-link" to="/pricing">*/}
+                                {/*        Pricing*/}
+                                {/*    </Link>*/}
+                                {/*</li>*/}
+                                {/*<li className="nav-item">*/}
+                                {/*    <Link className="nav-link" to="/reviews">*/}
+                                {/*        Reviews*/}
+                                {/*    </Link>*/}
+                                {/*</li>*/}
+                                {/*<li className="nav-item">*/}
+                                {/*    <Link className="nav-link" to="/blog-list">*/}
+                                {/*        Blog*/}
+                                {/*    </Link>*/}
+                                {/*</li>*/}
                                 <li className="nav-item">
                                     <Link className="nav-link" to="/contact">
                                         Contact

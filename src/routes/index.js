@@ -9,6 +9,7 @@ import SignUp from '../Components/Pages/Sign Up/Main'
 import Pricing from '../Components/Pricing/Main'
 import Review from '../Components/Reviews/Main'
 import Contact from '../Components/Contact/Main'
+import DeleteMe from '../Components/DeleteMe/Main'
 
 const Routing = () => {
 
@@ -24,6 +25,7 @@ const Routing = () => {
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/reviews" element={<Review />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/deleteMe" element={<DeleteMe />} />
       </Routes>
     </>
   )

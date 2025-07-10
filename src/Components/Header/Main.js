@@ -92,7 +92,7 @@ function Main() {
                                 {/*    </Link>*/}
                                 {/*</li>*/}
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/deleteMe">
+                                    <Link className="nav-link" to="/delete-me">
                                         My Data
                                     </Link>
                                 </li>
